@@ -1,6 +1,6 @@
 {
     "name":             "prospect",
-    "version":          "0.0.0",
+    "version":          "0.0.1",
     "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "description":      "A Promises/A wrapper for Cadence functions.",
     "keywords":
