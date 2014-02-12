@@ -1,0 +1,17 @@
+Prospect
+
+A Promises/A wrapper for Cadence functions.
+
+    Discussion:     http://github.com/bigeasy/prospect/issues/1
+
+    Documentation:  http://bigeasy.github.io/prospect
+    Source:         http://github.com/bigeasy/prospect
+    Issues:         http://github.com/bigeasy/prospect/issues
+
+    Install:        `npm install prospect`
+
+    License:        MIT
+
+To learn everything you want to know about Prospect start here:
+
+    http://bigeasy.github.io/prospect

@@ -1,0 +1,36 @@
+{
+    "name":             "prospect",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "A Promises/A wrapper for Cadence functions.",
+    "keywords":
+    [
+                        "btree", "leveldb", "levelup", "binary", "mvcc",
+                        "database", "json", "b-tree", "concurrent", "persistence"
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/skip",
+    "bugs":             "https://github.com/bigeasy/skip/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/prospect/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/prospect.git"
+    },
+    "dependencies":
+    {
+                        "oath":               "1.0.0"
+    },
+    "devDependencies":
+    {
+                        "proof":              "0.0.41"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}
