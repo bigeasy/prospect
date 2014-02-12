@@ -23,7 +23,7 @@
     },
     "dependencies":
     {
-                        "oath":               "1.0.0"
+                        "oath":               "0.2.3"
     },
     "devDependencies":
     {
