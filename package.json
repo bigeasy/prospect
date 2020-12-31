@@ -1,36 +1,33 @@
 {
-    "name":             "prospect",
-    "version":          "0.0.1",
-    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
-    "description":      "A Promises/A wrapper for Cadence functions.",
+    "name":                 "prospect",
+    "version":              "0.0.1",
+    "description":
+
+      "A future wrapper around a Promise.",
+
     "keywords":
     [
-                        "btree", "leveldb", "levelup", "binary", "mvcc",
-                        "database", "json", "b-tree", "concurrent", "persistence"
+                            "async", "await", "events", "callbacks"
     ],
-    "contributors":     [],
-    "homepage":         "https://github.com/bigeasy/skip",
-    "bugs":             "https://github.com/bigeasy/skip/issues",
-    "licenses":
-    [{
-                        "type": "MIT",
-                        "url": "http://github.com/bigeasy/prospect/raw/master/LICENSE"
-    }],
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":             "https://bigeasy.github.io/prospect",
+    "bugs":                 "https://github.com/bigeasy/prospect/issues",
+    "license":              "MIT",
     "repository":
     {
-                        "type": "git",
-                        "url": "http://github.com/bigeasy/prospect.git"
+                            "type": "git",
+                            "url": "bigeasy/prospect"
     },
     "dependencies":
     {
-                        "oath":               "0.2.3"
     },
     "devDependencies":
     {
-                        "proof":              "0.0.47"
+                            "proof":                        "^9.0.2"
     },
+    "main":                 "prospect",
     "scripts":
     {
-                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+                            "test": "proof test/*.t.js"
     }
 }
